@@ -1,0 +1,15 @@
+.previous-results-block {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #d6b026;
+    color: white;
+    min-width: 80%;
+    padding: 10px;
+    margin: 15px;
+}
+
+.previous-result {
+    font-size: 22px;
+    font-weight: 600;
+}

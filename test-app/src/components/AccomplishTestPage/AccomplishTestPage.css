@@ -1,0 +1,27 @@
+.accomplish-test-page {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d9a3d;
+    color: white;
+}
+
+.test-end-notification {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 15px;
+    background-color: #d6b026;
+    padding: 10px;
+    min-width: 35%;
+}
+
+.correct-answers {
+    background-color: #3ac13f;
+    padding: 7px;
+}
+
+.incorrect-answers {
+    background-color: #ea0808;
+    padding: 7px;
+}

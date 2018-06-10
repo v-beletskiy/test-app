@@ -1,0 +1,22 @@
+.answer_comment {
+    width: 70%;
+    margin-top: 25px;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #505f46;
+    border-radius: 11px;
+}
+
+.correct_answer_comment_header {
+    font-weight: 600;
+    color: #24a228;
+}
+
+.incorrect_answer_comment_header {
+    font-weight: 600;
+    color: #f50606;
+}
+
+.correct_answer_comment_text {
+
+}

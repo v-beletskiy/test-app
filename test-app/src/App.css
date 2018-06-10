@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #fffff1;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #025201;
+  padding: 5px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+.timer-block {
+   width: 70%;
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   margin: 0 auto;
+   text-align: left;
+   padding: 15px 30px 15px 30px;
+   background-color: #44a543;
+   color: white;
+}
+
+.timer-block-time-ends {
+  width: 70%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 0 auto;
+  text-align: left;
+  padding: 15px 30px 15px 30px;
+  background-color: #fbd24d;
+  color: white;
+}
+
+.timer {
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #198c1c;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.timer-time-ends {
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #ffb64c;
+  padding: 10px;
+}

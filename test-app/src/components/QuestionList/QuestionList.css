@@ -1,0 +1,46 @@
+.Question-list {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Question-list-item {
+    border-radius: 50px;
+    background-color: #f7e676;
+    font-size: 18px;
+    padding: 8px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
+    width: 21px;
+}
+
+.Question-list-item-active {
+    background-color: #fb990b;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 8px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
+    width: 21px;
+    transition-property: background-color;
+    transition-duration: 1.2s;
+    transition-timing-function: cubic-bezier(.24,.63,.36,.94);
+}
+
+.Question-list-item-confirmed {
+    background-color: #eae9e1;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 8px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
+    width: 21px;
+}
+
+.question-list-number {
+    margin: auto;
+}
